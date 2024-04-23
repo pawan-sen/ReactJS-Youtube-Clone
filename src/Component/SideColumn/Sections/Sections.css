@@ -1,0 +1,30 @@
+hr {
+    border: none;
+    height: 0.1px;
+    background-color: grey;
+    width: 95%;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.channel-pic {
+    height:1.9em;
+    width: 1.9em;
+    border-radius: 50%;
+}
+
+.tnc {
+    padding: 0;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.tnc > p {
+    font-size: 0.8em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-weight: 11px;
+    text-align: left;
+} 
+

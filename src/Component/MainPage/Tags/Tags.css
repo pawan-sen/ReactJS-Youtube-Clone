@@ -1,0 +1,60 @@
+.tag {
+    padding: 0.2em;
+    background-color: #333333;
+    border-radius: 14%;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+    white-space: nowrap;
+}
+
+.arrow-icon {
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    font-size: 1.2em;
+    color: white;
+}
+
+.arrow-icon:hover {
+    background-color: #333333;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.tag:hover {
+    cursor: pointer;
+    background-color: #8b8b8b;
+}
+
+.activeTag {
+    background-color: #cccccc;
+    color: black;
+}
+
+.activeTag:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.tagList {
+    padding-right: 1em;
+    padding-left: 1.5em;
+    position: sticky;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /* z-index: 800; */
+}
+
+.tags-container {
+    display: flex;
+}
+
+.inner-tagList {
+    display: flex;
+}
+
+.outer-tagList {
+    display: flex;
+}

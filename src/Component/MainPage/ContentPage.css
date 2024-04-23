@@ -1,0 +1,18 @@
+.ContentPage {
+    color: #fff;
+    width:100%;
+}
+
+.videoList {
+    display: grid;
+    column-gap: 1em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 90vh;
+    z-index: 50;
+    padding-left: 2em;
+}
+
+.tags {
+    position: sticky;
+}

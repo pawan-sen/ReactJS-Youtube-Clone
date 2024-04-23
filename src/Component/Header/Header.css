@@ -1,0 +1,99 @@
+.Header {
+    /* background-color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 5px 10px 5px 10px;
+    z-index: 100;
+}
+
+.header-icons {
+    color: white;
+}
+
+.header-icons:hover {
+    cursor: pointer;
+}
+
+.Header img {
+    max-width: 9rem;
+    padding-bottom: 0.5em;
+    color: white;
+}
+
+.left-header img {
+    margin-left: 0.3em;
+}
+
+.menu-icon {
+    margin-left: 0.5em;
+    padding: 0.5em;
+}
+
+.menu-icon:hover {
+    background-color: #272727;
+    border-radius: 50%;
+}
+
+.mid-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* border-radius: 20px; */
+}
+
+.mid-header input {
+    border: 0.1em solid #222222;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 2.2em;
+    padding-left: 1em;
+    background-color: #0f0f0f;
+    color: #eee;
+    /* border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; */
+}
+
+.mid-header input:focus {
+    outline: none;
+    color: #eee;
+}
+
+.search-icon{
+    background-color: #222222;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.mic-icon {
+    background-color: #222222;
+    border-radius: 45%;
+    padding: 0.2em;
+    margin-left: 0.5em;
+}
+
+.mic-icon:hover {
+    background-color: grey;
+}
+
+.righ-header-icon {
+    margin-left: 0.5em;
+    padding: 0.5em;
+}
+
+.righ-header-icon:hover {
+    background-color: #272727;
+    border-radius: 50%;
+    outline: none;
+}
+
+.header-icons:focus {
+    outline: none;
+}
+
+.tooltip {
+    border: 1px solid red;
+    
+}
